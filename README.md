@@ -1,8 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Sample Application: Explore by Location
 
-## Getting Started
+An example application that allows users to explore content on X by a selected location. Powered by the [X API](https://developer.x.com/en/docs/twitter-api).
 
-First, run the development server:
+## Features
+
+- **Location Selection**: Users choose a desired location where they wish to find relevant content, including posts, people to follow, and live spaces.
+- **Trending Topics**: After selecting a location, users will see a list of trending topics specific to that region.
+- **Post Exploration**: Users can select a trend to view related posts, including the most relevant and popular accounts to follow based on these posts.
+- **Live Spaces**: The app will also curate a list of live discussions and spaces related to the selected trend, allowing users to listen in and participate.
+
+By unlocking geographically-specific content, this app will enhance users' ability to learn about global trends and engage in meaningful conversations worldwide.
+
+## Setup
+
+Create a copy of the `.env.local.sample` file named, `.env.local`. Update the file to include the credentials for your develeloper project.
+
+Note: You can find your app credentials by visiting the [X Developer Platform Dashboard](https://developer.twitter.com/en/portal/dashboard). 
+
+```
+NEXT_PUBLIC_CONSUMER_KEY = ''
+NEXT_PUBLIC_CONSUMER_SECRET = ''
+
+NEXT_PUBLIC_CLIENT_ID = ''
+NEXT_PUBLIC_CLIENT_SECRET = ''
+
+NEXT_PUBLIC_ACCESS_TOKEN = ''
+NEXT_PUBLIC_TOKEN_SECRET = ''
+NEXT_PUBLIC_BEARER_TOKEN = ''
+```
+
+## Usage
+
+To run the project locally, run the following command(s):
 
 ```bash
 npm run dev
@@ -14,23 +43,12 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to visit the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Documentation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To learn more about the X API, visit the [X API Documentation](https://developer.x.com/en/docs/twitter-api).
 
-## Learn More
+## License
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+See [LICENSE](./LICENSE).
