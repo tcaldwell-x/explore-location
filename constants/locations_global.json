@@ -1,0 +1,72 @@
+{
+    "london": {
+        "city": "🇬🇧 London, United Kingdom",
+        "lat": 51.5074,
+        "long": -0.1278
+    },
+    "paris": {
+        "city": "🇫🇷 Paris, France",
+        "lat": 48.8566,
+        "long": 2.3522
+    },
+    "tokyo": {
+        "city": "🇯🇵 Tokyo, Japan",
+        "lat": 35.6895,
+        "long": 139.6917
+    },
+    "china": {
+        "city": "🇨🇳 Beijing, China",
+        "lat": 39.9042,
+        "long": 116.4074
+    },
+    "sydney": {
+        "city": "🇦🇺 Sydney, Australia",
+        "lat": -33.8688,
+        "long": 151.2093
+    },
+    "rio": {
+        "city": "🇧🇷 Rio de Janeiro, Brazil",
+        "lat": -22.9068,
+        "long": -43.1729
+    },
+    "cape": {
+        "city": "🇿🇦 Cape Town, South Africa",
+        "lat": -33.9249,
+        "long": 18.4241
+    },
+    "mumbai": {
+        "city": "🇮🇳 Mumbai, India",
+        "lat": 19.0760,
+        "long": 72.8777
+    },
+    "mexico": {
+        "city": "🇲🇽 Mexico City, Mexico",
+        "lat": 19.4326,
+        "long": -99.1332
+    },
+    "berlin": {
+        "city": "🇩🇪 Berlin, Germany",
+        "lat": 52.5200,
+        "long": 13.4050
+    },
+    "toronto": {
+        "city": "🇨🇦 Toronto, Canada",
+        "lat": 43.6532,
+        "long": -79.3832
+    },
+    "argentina": {
+        "city": "🇦🇷 Buenos Aires, Argentina",
+        "lat": -34.6037,
+        "long": -58.3816
+    },
+    "turkey": {
+        "city": "🇹🇷 Istanbul, Turkey",
+        "lat": 41.0082,
+        "long": 28.9784
+    },
+    "korea": {
+        "city": "🇰🇷 Seoul, South Korea",
+        "lat": 37.5665,
+        "long": 126.9780
+    }
+}

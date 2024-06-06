@@ -1,0 +1,22 @@
+{
+    "sea": {
+        "city": "🇺🇸 Seattle, Washington",
+        "lat": 47.6062,
+        "long": -122.3321
+    },
+    "la": {
+        "city": "🇺🇸 Los Angeles, California",
+        "lat": 34.0522,
+        "long": -118.2437
+    },
+    "nyc": {
+        "city": "🇺🇸 Manhattan, New York",
+        "lat": 40.7831,
+        "long": -73.9712
+    },
+    "mia": {
+        "city": "🇺🇸 Miami, Florida",
+        "lat": 25.7617,
+        "long": -80.1918
+    }
+}
